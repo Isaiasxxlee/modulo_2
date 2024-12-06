@@ -1,0 +1,32 @@
+@charset "UTF-8"
+
+{
+    font-family: arial, helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient( to right, #f1d8c9, #f2c3a7);
+
+}
+
+h1 {
+    color: rgb(18, 112, 116);
+    text-align: center;
+}
+
+h2 {
+    color: rgba(10, 10, 163, 0.87);
+}
+
+main {
+background-color: white ;
+border-radius: 10px; /* deixar arredondado os cantos do meu texto que é o padding*/
+width: 600px; /* Largura da página*/
+padding: 10px; /*define a distância entre o conteúdo ( nome ) de um elemento e a sua borda */
+margin: auto; /*vai ajustar o conteúdo do meu site ao centro independente do tamanho*/
+
+}
+
+p {
+    text-align: justify;
+}
